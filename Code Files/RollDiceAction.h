@@ -11,6 +11,10 @@ public:
 	RollDiceAction(ApplicationManager *pApp);
 
 	virtual void ReadActionParameters();
+	
+	virtual void Execute();
+
+	virtual ~RollDiceAction();
 
 	
 };
