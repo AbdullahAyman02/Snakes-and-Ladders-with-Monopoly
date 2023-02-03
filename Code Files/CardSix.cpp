@@ -20,9 +20,9 @@ void CardSix::ReadCardParameters(Grid* pGrid)
 
 Card* CardSix::Copy()
 {
-	Card* temp = new CardSix(this->GetPosition());
+	/*Card* temp = new CardSix(this->GetPosition());
 	*temp = *this;
-	return temp;
+	return temp;*/
 }
 
 void CardSix::Open(ifstream& InFile, ObjectType& type, Grid* gPtr)
