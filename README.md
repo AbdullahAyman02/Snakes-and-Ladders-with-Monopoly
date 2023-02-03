@@ -1,14 +1,13 @@
-# Snakes-and-Ladders-with-Monopoly
-
-<div align="left"><img src="/media/Dice.gif" alt="Dice"></div>
-<div align="center"><img src="/media/title.jpg" alt="Title"></div>
-<div align="right"><img src="/media/Dice.gif" alt="Dice"></div>
+<div align="center">
+<img src="/Media/dice.gif" alt="Title" width="25%">
+<img src="/Media/image.png" alt="Title" width="40%">
+<img src="/Media/dice.gif" alt="Title" width="25%">
+</div>
 
 ## Table of Contents
 
 * [Project Description](#Project-Description)
 * [Gameplay](#Gameplay)
-* [Notes](#Notes)
 * [References](#References)
 
 # Project Description
@@ -17,10 +16,10 @@ This game is a mixture of the two very popular games, Snakes & Ladders and Monop
 
 ## Cards:
 <div>
-    <table>
+    <table style="width: 100%">
         <tr style="font-size:30px;">
-            <th>Cards</th>
-            <th>Description</th>
+            <th style="width:100px">Cards</th>
+            <th style="width:70px">Description</th>
         </tr>
         <tr>
             <td>Card 1</td>
@@ -75,52 +74,52 @@ This game is a mixture of the two very popular games, Snakes & Ladders and Monop
 
 ## Design Mode Description:
 <table>
-    <tr style="font-size:30px;">
+    <tr style="font-size:50px;">
         <th>Image</th>
         <th>Description</th>
     </tr>
     <tr>
-        <td><img src="/images/Menu_Ladder.jpg" alt = "Ladder"></td>
+        <td><img src="/images/Menu_Ladder.jpg" alt = "Ladder" width="100px"></td>
         <td>Adds a ladder by specifying its start and end cells</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_Snake.jpg" alt = "Snake"></td>
+        <td><img src="/images/Menu_Snake.jpg" alt = "Snake" width="100px"></td>
         <td>Adds a snake by specifying its start and end cells</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_Card.jpg" alt = "Card"></td>
+        <td><img src="/images/Menu_Card.jpg" alt = "Card" width="100px"></td>
         <td>Adds one of the 12 cards to make this a special cell</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_Copy_Card.jpg" alt = "Copy"></td>
+        <td><img src="/images/Menu_Copy_Card.jpg" alt = "Copy" width="100px"></td>
         <td>Copy a card with all its data to the clipboard</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_Cut_Card.jpg" alt = "Cut"></td>
+        <td><img src="/images/Menu_Cut_Card.jpg" alt = "Cut" width="100px"></td>
         <td>Cuts a card with all its data to the clipboard</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_Paste_Card.jpg" alt = "Paste"></td>
+        <td><img src="/images/Menu_Paste_Card.jpg" alt = "Paste" width="100px"></td>
         <td>Paste the card in the clipboard to the destination cell</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_Delete.jpg"v alt = "Delete"></td>
+        <td><img src="/images/Menu_Delete.jpg"v alt = "Delete" width="100px"></td>
         <td>Deletes the game object in the cell that the user chooses</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_Save.jpg" alt = "Save"></td>
+        <td><img src="/images/Menu_Save.jpg" alt = "Save" width="100px"></td>
         <td>Save all the game objects of the grid to a file</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_Load.jpg" alt = "Load Grid"></td>
+        <td><img src="/images/Menu_Open.jpg" alt = "Load Grid" width="100px"></td>
         <td>Open a saved grid from a file and re-draw it</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_SwitchToGame.jpg" alt = "Switch to game"></td>
+        <td><img src="/images/Menu_SwitchToGame.jpg" alt = "Switch to game" width="100px"></td>
         <td>Switch to play mode any time even before saving</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_Exit.jpg" alt = "Exit"></td>
+        <td><img src="/images/Menu_Exit.jpg" alt = "Exit" width="100px"></td>
         <td>Exit the application</td>
     </tr>
 </table> 
@@ -132,23 +131,23 @@ This game is a mixture of the two very popular games, Snakes & Ladders and Monop
         <th>Description</th>
     </tr>
     <tr>
-        <td><img src="/images/Menu_Dice.jpg" alt = "Roll Dice"></td>
+        <td><img src="/images/Menu_Dice.jpg" alt = "Roll Dice" width="100px"></td>
         <td>Rolls the dice and performs necessary actions</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_Input_Value.jpg" alt = "Input Value"></td>
+        <td><img src="/images/Menu_Input_Value.jpg" alt = "Input Value" width="100px"></td>
         <td>Asks the user to insert a value instead of randomly rolling the dice</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_New.jpg" alt = "New Game"></td>
+        <td><img src="/images/Menu_New.jpg" alt = "New Game" width="100px"></td>
         <td>Restarts players' positions, wallets, and turn returns to player 0</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_SwitchToGrid.jpg" alt = "Switch to Design Mode"></td>
+        <td><img src="/images/Menu_SwitchToGrid.jpg" alt = "Switch to Design Mode" width="100px"></td>
         <td>Switch to design mode</td>
     </tr>
     <tr>
-        <td><img src="/images/Menu_Exit.jpg" alt = "Exit"></td>
+        <td><img src="/images/Menu_Exit.jpg" alt = "Exit" width="100px"></td>
         <td>Exit the Application</td>
     </tr>
 </table>
@@ -157,20 +156,18 @@ This game is a mixture of the two very popular games, Snakes & Ladders and Monop
 
 - To launch the game, run 'PT Project.exe'
 
-### Game 1
+### Design Mode
 
-<div align="center"><img src="/media/Design Mode.gif" alt="Design Mode" width="700px"></div>
+<div align="center"><img src="/Media/Design_Mode.gif" alt="Design Mode" width="700px"></div>
 
-### Game 2
+### Play Mode
 
-<div align="center"><img src="/media/Play Mode.gif" alt="Play Mode" width="700px"></div>
-
-# Notes
-
-- In the rare event of a bug occuring, it may be caused by latency in connection so just reload the game.
+<div align="center"><img src="/Media/Play_Mode.gif" alt="Play Mode" width="700px"></div>
 
 # References
 
-Project Document: [MP_Project_DescriptionA_Fall_2022.pdf](https://github.com/MahmoudSamy1452/Assembly-chess-game/files/10551974/MP_Project_DescriptionA_Fall_2022.pdf)
-
+Project Documents: 
+ - [PT-Project-Phase1.pdf](https://github.com/AbdullahAyman02/Snakes-and-Ladders-with-Monopoly/files/10582982/PT-Project-Fall2021-Phase1.pdf)
+ 
+ - [PT-Project-Phase2.pdf](https://github.com/AbdullahAyman02/Snakes-and-Ladders-with-Monopoly/files/10582981/CMPN103-Project-Fall2021-Phase2.pdf)
 
