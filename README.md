@@ -9,6 +9,7 @@
 * [Project Description](#Project-Description)
 * [Gameplay](#Gameplay)
 * [References](#References)
+* [Notes](#Notes)
 
 # Project Description
 
@@ -154,7 +155,7 @@ This game is a mixture of the two very popular games, Snakes & Ladders and Monop
 
 # Gameplay
 
-- To launch the game, run 'PT Project.exe'
+- To launch the game, run 'PT Project.exe' in the same directory that has the 'images' folder
 
 ### Design Mode
 
@@ -171,3 +172,5 @@ Project Documents:
  
  - [PT-Project-Phase2.pdf](https://github.com/AbdullahAyman02/Snakes-and-Ladders-with-Monopoly/files/10582981/CMPN103-Project-Fall2021-Phase2.pdf)
 
+# Notes
+ - You need to have the 'images' folder and the 'PT Project.exe' in the same directory for the game to run
